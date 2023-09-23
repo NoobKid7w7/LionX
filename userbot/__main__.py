@@ -39,8 +39,8 @@ class LionCheck:
 
 
 Lioncheck = LionCheck()
-# Join Lion X Channel after deploying 🤐😅
-# Why not come here and chat??
+# 
+# 
 async def hehn():
     try:
         await lionub(JoinChannelRequest("@LionXUpdates"))
@@ -57,10 +57,9 @@ async def startup_process():
     await load_plugins("plugins")
     await load_plugins("assistant")
     print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
-    print("Yay your Lion-Z Userbot is officially working.!!!")
+    print("Yay your Userbot is officially working.!!!")
     print(
-        f"Congratulation, now type {cmdhr}alive to see message if lionub is live\
-        \nIf you need assistance, head to https://t.me/LionXSupport"
+        f"Congratulation, now type {cmdhr}alive to see message if ub is live"
     )
     print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
     await verifyLoggerGroup()

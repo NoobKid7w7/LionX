@@ -12,16 +12,16 @@ __license__ = "GNU Affero General Public License v3.0"
 __author__ = "LionUserBot <https://github.com/MdNoor786/Lion-Z>"
 __copyright__ = "Lion-Z Copyright (©️) 2020 - 2021  " + __author__
 
-lionub.version = __version__
-lionub.tgbot.version = __version__
+Victus.version = __version__
+victus.tgbot.version = __version__
 LOGS = logging.getLogger("LionX")
-bot = lionub
+bot = victus
 
 StartTime = time.time()
 lionversion = "0.5"
 
-if Config.UPSTREAM_REPO == "lion":
-    UPSTREAM_REPO_URL = "https://github.com/MdNoor786/Lion-Z"
+if Config.UPSTREAM_REPO == "Victus":
+    UPSTREAM_REPO_URL = "https://github.com"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
